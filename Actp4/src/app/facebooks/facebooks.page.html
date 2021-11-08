@@ -1,0 +1,15 @@
+
+
+<ion-content>
+<h1>Profile</h1>
+
+<ion-card *ngFor="let facebook of facebooks" [routerLink]="['/facebook-details', facebook.id]">
+  <ion-card-header>
+    <ion-card-title>{{ facebook.id }}</ion-card-title>
+    <ion-card-subtitle>{{ facebook.name | uppercase }}</ion-card-subtitle>
+  </ion-card-header>
+<ion-card-content>
+  {{ facebook.age }}
+</ion-card-content>
+</ion-card>
+</ion-content>
