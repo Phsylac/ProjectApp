@@ -1,0 +1,15 @@
+
+
+<ion-content>
+    
+        <ion-card color="Light" *ngFor="let Books1 of books">
+          <ion-card-content>
+            <ion-card-title>Book No: {{ Books1.id }}</ion-card-title>
+            <ion-card-title>Title: {{ Books1.Title }}</ion-card-title>
+            <ion-card-subtitle>Description: {{ Books1.Description }}</ion-card-subtitle>
+            <ion-card-subtitle>Genre: {{ Books1.Genre }}</ion-card-subtitle>
+            <ion-card-subtitle>Module {{ Books1.Module }}</ion-card-subtitle>
+          </ion-card-content>
+          </ion-card>
+    
+  </ion-content>
