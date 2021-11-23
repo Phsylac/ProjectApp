@@ -1,0 +1,7 @@
+{
+  "name": "Actp4",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
