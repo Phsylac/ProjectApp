@@ -1,0 +1,7 @@
+{
+  "name": "Katolkia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
