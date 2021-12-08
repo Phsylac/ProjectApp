@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'listings',
+    loadChildren: () => import('./listings/listings.module').then( m => m.ListingsPageModule)
+  },
+  {
+    path: 'listing-schedule/:id',
+    loadChildren: () => import('./listing-schedule/listing-schedule.module').then( m => m.ListingSchedulePageModule)
+  },
 ];
 
 @NgModule({

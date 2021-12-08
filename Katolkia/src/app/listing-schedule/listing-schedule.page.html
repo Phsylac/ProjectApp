@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>{{ title }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>{{ listing.header | uppercase }}</ion-card-header>
+
+    <ion-card-subtitle>{{ listing.id }}</ion-card-subtitle>
+      <ion-card-subtitle>Type: {{ listing.type }}</ion-card-subtitle>
+      <ion-card-subtitle>Address: {{ listing.address }}</ion-card-subtitle>
+      <ion-card-subtitle>Bedroom: {{ listing.bedroom }}</ion-card-subtitle>
+      <ion-card-subtitle>Bathroom: {{ listing.bathroom }}</ion-card-subtitle>
+      <ion-card-subtitle>House: {{ listing.house }}</ion-card-subtitle>
+      <ion-card-subtitle>House Status: {{ listing.houses }}</ion-card-subtitle>
+      <p>{{ listing.price | currency }}</p>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,19 @@
+
+<ion-content>
+  <ion-card *ngFor="let listing of listings" [routerLink]="['/listing-schedule', listing.id]">
+    <ion-img src="{{ listing.img }}"></ion-img>
+    <ion-card-header>{{ listing.header | uppercase }}</ion-card-header>
+
+    <ion-card-subtitle>{{ listing.id }}</ion-card-subtitle>
+      <ion-card-subtitle>Type: {{ listing.type }}</ion-card-subtitle>
+      <ion-card-subtitle>Address: {{ listing.address }}</ion-card-subtitle>
+      <ion-card-subtitle>Bedroom: {{ listing.bedroom }}</ion-card-subtitle>
+      <ion-card-subtitle>Bathroom: {{ listing.bathroom }}</ion-card-subtitle>
+      <ion-card-subtitle>House: {{ listing.house }}</ion-card-subtitle>
+      <ion-card-subtitle>House Status: {{ listing.houses }}</ion-card-subtitle>
+      <p>{{ listing.price | currency }}</p>
+      <ion-button>SCHEDULE VISIT</ion-button>
+    </ion-card>
+
+
+</ion-content>

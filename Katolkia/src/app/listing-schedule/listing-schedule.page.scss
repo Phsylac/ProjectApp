@@ -1,0 +1,53 @@
+ion-title {
+    text-align: center;
+    color: black;
+    font-family: 'Bookman Old Style';
+  }
+  
+ion-card{
+    background-color: #7fc5d7;
+  }
+
+ion-content{
+
+    --ion-background-color:#7fc5d7;
+  }
+  
+  ion-card-header{
+    text-align: center;
+    color: black;
+    font-family: 'Bookman Old Style';
+    font-size: larger;
+  }
+  
+  ion-card-subtitle{
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans';
+  }
+  
+  p{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: larger;
+  }
+  
+  ion-button{
+    text-align: center;
+    color: white;
+    font-family:'Arial Narrow Bold';
+    background-color: rgba(7, 135, 209, 0.719);
+    font-size: smaller;
+    margin-left:30%;
+    margin-right:25%;
+  }
+  
+  img{
+    width: 300px;
+    height: 220px;
+    margin-left:9%;
+    margin-right:23%;
+  }
+  
+  
