@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ListingSchedulePage implements OnInit {
 listing: Listing | undefined;
-title ='Schedule Visit';
+title ='Schedule';
 
   constructor(private route: ActivatedRoute) { }
 

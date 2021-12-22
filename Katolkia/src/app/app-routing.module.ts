@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
@@ -18,6 +18,22 @@ const routes: Routes = [
   {
     path: 'listing-schedule/:id',
     loadChildren: () => import('./listing-schedule/listing-schedule.module').then( m => m.ListingSchedulePageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./signup/signup.module').then( m => m.SignupPageModule)
+  },
+  {
+    path: 'background',
+    loadChildren: () => import('./background/background.module').then( m => m.BackgroundPageModule)
   },
 ];
 
